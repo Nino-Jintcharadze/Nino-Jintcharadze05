@@ -141,6 +141,7 @@ h2 {
 .footer-div {
 	height: 200px;
 	background-color: #A6ADB4;
+	position: relative;
 }
 .footer-nav {
 	width: 486px;
@@ -177,18 +178,22 @@ h2 {
 .li {
 	margin-top: 8px;
 }
-/*.footer-p {
+.footer-p {
 	color: #CBD0D3;
 	font-family: 'helvetica';
 	font-size: 13px;
 	font-weight: bold;
-	margin-left: 733px;
-
-}*/
-/*.div-icons {
-	height: 16px;
 	display: inline-block;
-	margin-left: 1140px;
+	position: absolute;
+	left: 733px;
+	top: 62px;
+
+}
+.div-icons {
+	position: absolute;
+	display: inline-block;
+	left: 1140px;
+	top: 56px;
 }
 .twitter {
 	margin-left: 32px;
@@ -201,4 +206,3 @@ h2 {
 }
 
 
-*/
