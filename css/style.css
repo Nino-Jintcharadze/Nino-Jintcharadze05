@@ -16,7 +16,7 @@ body {
 	font-size: 13px;
 	color: #FA6980;
 	text-transform: uppercase;
-	font-family: 'helvetica';
+	font-family: 'Helvetica';
 	font-weight: bold;
 }
 .nav {
@@ -26,7 +26,7 @@ body {
 	display: inline-block;
 	margin-top: 20px;
 	text-transform: uppercase;
-	font-family: 'helvetica';
+	font-family: 'Helvetica';
 	font-weight: bold;
 	font-size: 14px;
 }
@@ -51,14 +51,25 @@ body {
 	color: #343638;
 	opacity: 50%;
 }
+
+/*section I*/
+
+.heading {
+	width: 1160px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
 h2 {
-	font-family: 'helvetica';
+	font-family: 'Helvetica';
 	font-size: 24px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #202124;
-	margin-top: 25px;
-	margin-left: 140px;
+}
+.section-one {
+	width: 1160px;
+	margin:0  auto;
 }
 .main {
 	width: 360px;
@@ -73,13 +84,11 @@ h2 {
 	vertical-align: center;
 	margin-left: 40px;
 	margin-top: 66px;
-	font-family: 'helvetica';
+	font-family: 'Acumin Pro';
 	font-size: 13px;
 	color: #A6ADB4;
 }
-.left-div {
-	margin-left: 140px;
-}
+
 .center-div {
 	margin-left: 40px;
 }
@@ -102,20 +111,27 @@ h2 {
 	margin-left: 40px;
 }
 .time {
-	font-family: 'helvetica';
+	font-family: 'Acumin Pro';
 	font-size: 13px;
 	color: #A6ADB4;
 	display: inline-block;
 	vertical-align: middle;
-	margin-bottom: 5px;
+	/*margin-bottom: 5px;*/
 	margin-left: 5px;
+}
+
+
+/*section II*/
+
+.section-two {
+	width: 1160px;
+	margin: 0 auto;
 }
 
 .first-block {
 	width: 760px;
 	display: inline-block;
 	margin-top: 40px;
-	margin-left: 140px;
 }
 .img-bridge {
 	margin-bottom: 40px;
@@ -127,82 +143,59 @@ h2 {
 	margin-left: 40px;
 }
 .img-elephant {
-	display: block;
 	margin-bottom: 102px;
 }
 .img-bird {
-	display: block;
 	margin-bottom: 102px;
 }
 .img-road {
-	display: block;
 	margin-bottom: 62px;
 }
-.footer-div {
-	height: 200px;
+
+/*footer style*/
+footer {
 	background-color: #A6ADB4;
-	position: relative;
 }
-.footer-nav {
-	width: 486px;
+
+.footer-divs {
+	width: 1160px;
+	height: 200px;
 	padding-top: 56px;
-	margin-left: 142px;
+	padding-bottom: 60px;
+	margin:0 auto;
 }
-.footer-logo {
-	color: #FFF;
-	font-size: 13px;
-	font-family: 'helvetica';
-	text-transform: uppercase;
-	font-weight: bolder;
-}
-.ul {
+.footer-logo, .ul, .footer-p, .div-icons {
 	display: inline-block;
 	vertical-align: top;
-	font-family: 'helvetica';
+}
+.footer-a, .footer-p {
+	font-family: 'Helvetica';
 	font-size: 13px;
-	font-weight: bold;
+	color: #CBD0D3;
 	text-transform: capitalize;
+
+}
+.footer-logo {
+	font-family: 'Acumin Pro';
+	font-size: 13px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 .first-ul {
-	margin-left: 88px;
-}
-.second-ul {
-	margin-left: 70.8px;
+	margin-left: 89px;
+	margin-right: 98px;
 }
 .third-ul {
-	margin-left: 75px;
-}
-.footer-a {
-	color: #CBD0D3;
-}
-.li {
-	margin-top: 8px;
+	margin-left: 110px;
+	margin-right: 105px;
 }
 .footer-p {
-	color: #CBD0D3;
-	font-family: 'helvetica';
-	font-size: 13px;
-	font-weight: bold;
-	display: inline-block;
-	position: absolute;
-	left: 733px;
-	top: 62px;
-
+	margin-right: 80px;
 }
-.div-icons {
-	position: absolute;
-	display: inline-block;
-	left: 1140px;
-	top: 56px;
+.li {
+	margin-bottom: 8px;
 }
-.twitter {
-	margin-left: 32px;
-} 
-.fb {
-	margin-left: 32px;
+.icon {
+	margin-right: 15px;
 }
-.web {
-	margin-left: 32px;
-}
-
-
