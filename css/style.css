@@ -67,7 +67,7 @@ h2 {
 	text-transform: uppercase;
 	color: #202124;
 }
-.section-one {
+.section {
 	width: 1160px;
 	margin:0  auto;
 }
@@ -116,17 +116,11 @@ h2 {
 	color: #A6ADB4;
 	display: inline-block;
 	vertical-align: middle;
-	/*margin-bottom: 5px;*/
 	margin-left: 5px;
 }
 
 
 /*section II*/
-
-.section-two {
-	width: 1160px;
-	margin: 0 auto;
-}
 
 .first-block {
 	width: 760px;
